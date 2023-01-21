@@ -45,7 +45,7 @@ for branch in ['house', 'mayors', 'senate']:
                         'laion2b_s32b_b82k': ['ViT-L-14'],
                         'laion2b_s32b_b79k': ['ViT-H-14'],
                         'laion2b_s34b_b79k': ['ViT-B-32']
-                    }
+                        }
 
     detailed_results = {}
     for model_data, model_arch in open_clip_models.items():

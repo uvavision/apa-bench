@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data to Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #eef;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualization</h1>
+    {% for person in persons %}
+        <h2>{{ person.names }}</h2>
+        <img src="https://www.visualbias.org/images/house/{{ person.filename }}" alt="{{ person.names }}" width="150px">
+        <p><strong>District:</strong> {{ person.district }}</p>
+        <p><strong>DOB:</strong> {{ person.born }}</p>
+        <p><strong>Resides:</strong> {{ person.resides }}</p>
+        <p><strong>Gender:</strong> {{ person.gender }}</p>
+        <p><strong>Party:</strong> {{ person.party }}</p>
+        {% for category, values in data['RN50'][person.names].items() %}
+            <h3>{{ category }}</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for desc, value in values.items() %}
+                        <tr>
+                            <td>{{ desc }}</td>
+                            <td>{{ value }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+    {% endfor %}
+</body>
+</html>

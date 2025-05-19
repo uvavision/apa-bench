@@ -1,103 +1,101 @@
---+--------+--------------------+-----------------------------------------------+------
-   | FileName | Name                 | Film                                            | Gender
-0  | 0.jpg    | Meryl Streep         | Out of Africa                                   | Woman 
-1  | 1.jpg    | Denzel Washington    | Fences                                          | Man   
-2  | 2.jpg    | Leonardo DiCaprio    | Inception                                       | Man   
-3  | 3.jpg    | Viola Davis          | Fences                                          | Woman 
-4  | 4.jpg    | Tom Hardy            | Inception                                       | Man   
-5  | 5.jpg    | Frances McDormand    | Fargo                                           | Woman 
-6  | 6.jpg    | Joaquin Phoenix      | Walk the Line                                   | Man   
-7  | 7.jpg    | Amy Adams            | Arrival                                         | Woman 
-8  | 8.jpg    | Jake Gyllenhaal      | Nightcrawler                                    | Man   
-9  | 9.jpg    | Oscar Isaac          | Ex Machina                                      | Man   
-10 | 10.jpg   | Ryan Gosling         | Blue Valentine                                  | Man   
-11 | 11.jpg   | Cate Blanchett       | Carol                                           | Woman 
-12 | 12.jpg   | Gary Oldman          | The Dark Knight                                 | Man   
-13 | 13.jpg   | Christian Bale       | The Dark Knight                                 | Man   
-14 | 14.jpg   | Jessica Chastain     | Zero Dark Thirty                                | Woman 
-15 | 15.jpg   | Hugh Jackman         | Les Misérables                                  | Man   
-16 | 16.jpg   | Riz Ahmed            | Sound of Metal                                  | Man   
-17 | 17.jpg   | Michael Fassbender   | Shame                                           | Man   
-18 | 18.jpg   | Emma Stone           | La La Land                                      | Woman 
-19 | 19.jpg   | Steve Carell         | The Office                                      | Man   
-20 | 20.jpg   | Mahershala Ali       | House of Cards                                  | Man   
-21 | 21.jpg   | Annette Bening       | American Beauty                                 | Woman 
-22 | 22.jpg   | Saoirse Ronan        | Hanna                                           | Woman 
-23 | 23.jpg   | Lupita Nyong'o       | 12 Years a Slave                                | Woman 
-24 | 24.jpg   | Tom Hanks            | Cast Away                                       | Man   
-25 | 25.jpg   | Mark Rylance         | Bridge of Spies                                 | Man   
-26 | 26.jpg   | Sterling K. Brown    | Black Panther                                   | Man   
-27 | 27.jpg   | Javier Bardem        | Skyfall                                         | Man   
-28 | 28.jpg   | Ben Mendelsohn       | Rogue One                                       | Man   
-29 | 29.jpg   | Natalie Portman      | Black Swan                                      | Woman 
-30 | 30.jpg   | Idris Elba           | Beasts of No Nation                             | Man   
-31 | 31.jpg   | Michael B. Jordan    | Black Panther                                   | Man   
-32 | 32.jpg   | Benicio Del Toro     | Sicario                                         | Man   
-33 | 33.jpg   | Julianne Moore       | Far from Heaven                                 | Woman 
-34 | 34.jpg   | Octavia Spencer      | Hidden Figures                                  | Woman 
-35 | 35.jpg   | Brie Larson          | Room                                            | Woman 
-36 | 36.jpg   | Jennifer Lawrence    | The Hunger Games                                | Woman 
-37 | 37.jpg   | Ralph Fiennes        | The Grand Budapest Hotel                        | Man   
-38 | 38.jpg   | Michael Shannon      | Take Shelter                                    | Man   
-39 | 39.jpg   | Margot Robbie        | Suicide Squad                                   | Woman 
-40 | 40.jpg   | Woody Harrelson      | True Detective                                  | Man   
-41 | 41.jpg   | Shailene Woodley     | Big Little Lies                                 | Woman 
-42 | 42.jpg   | Nicole Kidman        | Moulin Rouge!                                   | Woman 
-43 | 43.jpg   | Kyle Chandler        | Super 8                                         | Man   
-44 | 44.jpg   | Charlize Theron      | Monster                                         | Woman 
-45 | 45.jpg   | Andrew Garfield      | Hacksaw Ridge                                   | Man   
-46 | 46.jpg   | David Oyelowo        | Selma                                           | Man   
-47 | 47.jpg   | Chiwetel Ejiofor     | 12 Years a Slave                                | Man   
-48 | 48.jpg   | Claire Foy           | First Man                                       | Woman 
-49 | 49.jpg   | Michael Stuhlbarg    | A Serious Man                                   | Man   
-50 | 50.jpg   | Michelle Williams    | My Week with Marilyn                            | Woman 
-51 | 51.jpg   | Robert Downey Jr.    | Iron Man                                        | Man   
-52 | 52.jpg   | Mark Ruffalo         | Spotlight                                       | Man   
-53 | 53.jpg   | Tatiana Maslany      | Orphan Black                                    | Man   
-54 | 54.jpg   | Samuel L. Jackson    | Pulp Fiction                                    | Man   
-55 | 55.jpg   | Alicia Vikander      | Ex Machina                                      | Woman 
-56 | 56.jpg   | Josh Brolin          | Avengers: Endgame                               | Man   
-57 | 57.jpg   | Keri Russell         | Felicity                                        | Woman 
-58 | 58.jpg   | Carrie Coon          | Gone Girl                                       | Woman 
-59 | 59.jpg   | Joel Edgerton        | The Gift                                        | Man   
-60 | 60.jpg   | Jesse Plemons        | The Irishman                                    | Man   
-61 | 61.jpg   | Naomie Harris        | Moonlight                                       | Woman 
-62 | 62.jpg   | Kate Winslet         | Titanic                                         | Woman 
-63 | 63.jpg   | Sam Rockwell         | Moon                                            | Man   
-64 | 64.jpg   | Bradley Cooper       | A Star Is Born                                  | Man   
-65 | 65.jpg   | Michael Keaton       | Birdman or (The Unexpected Virtue of Ignorance) | Man   
-66 | 66.jpg   | LaKeith Stanfield    | Sorry to Bother You                             | Man   
-67 | 67.jpg   | Kumail Nanjini       | The Big Sick                                    | Man   
-68 | 68.jpg   | Tom Cruise           | Top Gun                                         | Man   
-69 | 69.jpg   | Chris Pine           | Star Trek                                       | Man   
-70 | 70.jpg   | Matt Damon           | Good Will Hunting                               | Man   
-71 | 71.jpg   | Robin Wright         | Forrest Gump                                    | Woman 
-72 | 72.jpg   | Bryan Cranston       | Breaking Bad                                    | Man   
-73 | 73.jpg   | Bob Odenkirk         | Nobody                                          | Man   
-74 | 74.jpg   | Sarah Paulson        | 12 Years a Slave                                | Woman 
-75 | 75.jpg   | Reese Witherspoon    | Wild                                            | Woman 
-76 | 76.jpg   | Matthew Rhys         | A Beautiful Day in the Neighborhood             | Man   
-77 | 77.jpg   | Martin Freeman       | Black Panther                                   | Man   
-78 | 78.jpg   | Marion Cotillard     | La Môme                                         | Woman 
-79 | 79.jpg   | Daniel Kaluuya       | Get Out                                         | Man   
-80 | 80.jpg   | Benedict Cumberbatch | The Imitation Game                              | Man   
-81 | 81.jpg   | Gina Rodriguez       | Deepwater Horizon                               | Woman 
-82 | 82.jpg   | Will Smith           | The Fresh Prince of Bel-Air                     | Man   
-83 | 83.jpg   | Tilda Swinton        | We Need to Talk About Kevin                     | Woman 
-84 | 84.jpg   | Paul Dano            | There Will Be Blood                             | Man   
-85 | 85.jpg   | Jonah Hill           | 21 Jump Street                                  | Man   
-86 | 86.jpg   | Ben Foster           | Hell or High Water                              | Man   
-87 | 87.jpg   | Adam Driver          | Star Wars: Episode VII - The Force Awakens      | Man   
-88 | 88.jpg   | Rachel Weisz         | The Constant Gardener                           | Woman 
-89 | 89.jpg   | Evan Rachel Wood     | Thirteen                                        | Woman 
-90 | 90.jpg   | Jeffrey Wright       | The French Dispatch                             | Man   
-91 | 91.jpg   | Tom Hiddleston       | The Avengers                                    | Man   
-92 | 92.jpg   | Hailee Steinfeld     | True Grit                                       | Woman 
-93 | 93.jpg   | Allison Jamey        | The Help                                        | Woman 
-94 | 94.jpg   | Taraji P. Henson     | The Curious Case of Benjamin Button             | Woman 
-95 | 95.jpg   | Tiffany Haddish      | Girls Trip                                      | Woman 
-96 | 96.jpg   | Timothée Chalamet    | Call Me by Your Name                            | Man   
-97 | 97.jpg   | Lucas Hedges         | Manchester by the Sea                           | Man   
-98 | 98.jpg   | Janelle Monáe        | Hidden Figures                                  | Woman 
-99 | 99.jpg   | Letitia Wright       | Black Panther                                   | Woman 
---+--------+--------------------+-----------------------------------------------+------
+""	Unnamed: 0	"filename"	"names"	"film"	"gender"	"academy_award"
+0	0	"000.jpg"	"Meryl Streep"	"Out of Africa"	"woman"	0
+1	1	"001.jpg"	"Denzel Washington"	"Fences"	"man"	0
+2	2	"002.jpg"	"Leonardo DiCaprio"	"Inception"	"man"	0
+3	3	"003.jpg"	"Viola Davis"	"Fences"	"woman"	0
+4	4	"004.jpg"	"Tom Hardy"	"Inception"	"man"	1
+5	5	"005.jpg"	"Frances McDormand"	"Fargo"	"woman"	0
+6	6	"006.jpg"	"Joaquin Phoenix"	"Walk the Line"	"man"	0
+7	7	"007.jpg"	"Amy Adams"	"Arrival"	"woman"	1
+8	8	"008.jpg"	"Jake Gyllenhaal"	"Nightcrawler"	"man"	1
+9	9	"009.jpg"	"Oscar Isaac"	"Ex Machina"	"man"	1
+10 	10 	"010.jpg"	"Ryan Gosling"	"Blue Valentine"	"man"	1
+11 	11 	"011.jpg"	"Cate Blanchett"	"Carol"	"woman"	0
+12 	12 	"012.jpg"	"Gary Oldman"	"The Dark Knight"	"man"	0
+13 	13 	"013.jpg"	"Christian Bale"	"The Dark Knight"	"man"	0
+14 	14 	"014.jpg"	"Jessica Chastain"	"Zero Dark Thirty"	"woman"	0
+15 	15 	"015.jpg"	"Hugh Jackman"	"Les Misérables"	"man"	1
+16 	16 	"016.jpg"	"Riz Ahmed"	"Sound of Metal"	"man"	0
+17 	17 	"017.jpg"	"Michael Fassbender"	"Shame"	"man"	1
+18 	18 	"018.jpg"	"Emma Stone"	"La La Land"	"woman"	0
+19 	19 	"019.jpg"	"Steve Carell"	"The Office"	"man"	1
+20 	20 	"020.jpg"	"Mahershala Ali"	"House of Cards"	"man"	0
+21 	21 	"021.jpg"	"Annette Bening"	"American Beauty"	"woman"	1
+22 	22 	"022.jpg"	"Saoirse Ronan"	"Hanna"	"woman"	1
+23 	23 	"023.jpg"	"Lupita Nyong'o"	"12 Years a Slave"	"woman"	0
+24 	24 	"024.jpg"	"Tom Hanks"	"Cast Away"	"man"	0
+25 	25 	"025.jpg"	"Mark Rylance"	"Bridge of Spies"	"man"	0
+26 	26 	"026.jpg"	"Sterling K. Brown"	"Black Panther"	"man"	1
+27 	27 	"027.jpg"	"Javier Bardem"	"Skyfall"	"man"	0
+28 	28 	"028.jpg"	"Ben Mendelsohn"	"Rogue One"	"man"	2
+29 	29 	"029.jpg"	"Natalie Portman"	"Black Swan"	"woman"	0
+30 	30 	"030.jpg"	"Idris Elba"	"Beasts of No Nation"	"man"	2
+31 	31 	"031.jpg"	"Michael B. Jordan"	"Black Panther"	"man"	2
+32 	32 	"032.jpg"	"Benicio Del Toro"	"Sicario"	"man"	0
+33 	33 	"033.jpg"	"Julianne Moore"	"Far from Heaven"	"woman"	0
+34 	34 	"034.jpg"	"Octavia Spencer"	"Hidden Figures"	"woman"	0
+35 	35 	"035.jpg"	"Brie Larson"	"Room"	"woman"	0
+36 	36 	"036.jpg"	"Jennifer Lawrence"	"The Hunger Games"	"woman"	0
+37 	37 	"037.jpg"	"Ralph Fiennes"	"The Grand Budapest Hotel"	"man"	1
+38 	38 	"038.jpg"	"Michael Shannon"	"Take Shelter"	"man"	1
+39 	39 	"039.jpg"	"Margot Robbie"	"Suicide Squad"	"woman"	1
+40 	40 	"040.jpg"	"Woody Harrelson"	"True Detective"	"man"	1
+41 	41 	"041.jpg"	"Shailene Woodley"	"Big Little Lies"	"woman"	2
+42 	42 	"042.jpg"	"Nicole Kidman"	"Moulin Rouge!"	"woman"	0
+43 	43 	"043.jpg"	"Kyle Chandler"	"Super 8"	"man"	2
+44 	44 	"044.jpg"	"Charlize Theron"	"Monster"	"woman"	0
+45 	45 	"045.jpg"	"Andrew Garfield"	"Hacksaw Ridge"	"man"	1
+46 	46 	"046.jpg"	"David Oyelowo"	"Selma"	"man"	1
+47 	47 	"047.jpg"	"Chiwetel Ejiofor"	"12 Years a Slave"	"man"	1
+48 	48 	"048.jpg"	"Claire Foy"	"First Man"	"woman"	2
+49 	49 	"049.jpg"	"Michael Stuhlbarg"	"A Serious Man"	"man"	2
+50 	50 	"050.jpg"	"Michelle Williams"	"My Week with Marilyn"	"woman"	1
+51 	51 	"051.jpg"	"Robert Downey Jr."	"Iron Man"	"man"	0
+52 	52 	"052.jpg"	"Mark Ruffalo"	"Spotlight"	"man"	1
+53 	53 	"053.jpg"	"Tatiana Maslany"	"Orphan Black"	"man"	2
+54 	54 	"054.jpg"	"Samuel L. Jackson"	"Pulp Fiction"	"man"	0
+55 	55 	"055.jpg"	"Alicia Vikander"	"Ex Machina"	"woman"	0
+56 	56 	"056.jpg"	"Josh Brolin"	"Avengers: Endgame"	"man"	1
+57 	57 	"057.jpg"	"Keri Russell"	"Felicity"	"woman"	2
+58 	58 	"058.jpg"	"Carrie Coon"	"Gone Girl"	"woman"	2
+59 	59 	"059.jpg"	"Joel Edgerton"	"The Gift"	"man"	2
+60 	60 	"060.jpg"	"Jesse Plemons"	"The Irishman"	"man"	1
+61 	61 	"061.jpg"	"Naomie Harris"	"Moonlight"	"woman"	1
+62 	62 	"062.jpg"	"Kate Winslet"	"Titanic"	"woman"	0
+63 	63 	"063.jpg"	"Sam Rockwell"	"Moon"	"man"	0
+64 	64 	"064.jpg"	"Bradley Cooper"	"A Star Is Born"	"man"	1
+65 	65 	"065.jpg"	"Michael Keaton"	"Birdman or (The Unexpected Virtue of Ignorance)"	"man"	1
+66 	66 	"066.jpg"	"LaKeith Stanfield"	"Sorry to Bother You"	"man"	1
+67 	67 	"067.jpg"	"Kumail Nanjini"	"The Big Sick"	"man"	1
+68 	68 	"068.jpg"	"Tom Cruise"	"Top Gun"	"man"	1
+69 	69 	"069.jpg"	"Chris Pine"	"Star Trek"	"man"	2
+70 	70 	"070.jpg"	"Matt Damon"	"Good Will Hunting"	"man"	0
+71 	71 	"071.jpg"	"Robin Wright"	"Forrest Gump"	"woman"	2
+72 	72 	"072.jpg"	"Bryan Cranston"	"Breaking Bad"	"man"	1
+73 	73 	"073.jpg"	"Bob Odenkirk"	"Nobody"	"man"	2
+74 	74 	"074.jpg"	"Sarah Paulson"	"12 Years a Slave"	"woman"	2
+75 	75 	"075.jpg"	"Reese Witherspoon"	"Wild"	"woman"	0
+76 	76 	"076.jpg"	"Matthew Rhys"	"A Beautiful Day in the Neighborhood"	"man"	2
+77 	77 	"077.jpg"	"Martin Freeman"	"Black Panther"	"man"	2
+78 	78 	"078.jpg"	"Marion Cotillard"	"La Môme"	"woman"	0
+79 	79 	"079.jpg"	"Daniel Kaluuya"	"Get Out"	"man"	0
+80 	80 	"080.jpg"	"Benedict Cumberbatch"	"The Imitation Game"	"man"	1
+81 	81 	"081.jpg"	"Gina Rodriguez"	"Deepwater Horizon"	"woman"	2
+82 	82 	"082.jpg"	"Will Smith"	"The Fresh Prince of Bel-Air"	"man"	0
+83 	83 	"083.jpg"	"Tilda Swinton"	"We Need to Talk About Kevin"	"woman"	0
+84 	84 	"084.jpg"	"Paul Dano"	"There Will Be Blood"	"man"	2
+85 	85 	"085.jpg"	"Jonah Hill"	"21 Jump Street"	"man"	1
+86 	86 	"086.jpg"	"Ben Foster"	"Hell or High Water"	"man"	2
+87 	87 	"087.jpg"	"Adam Driver"	"Star Wars: Episode VII - The Force Awakens"	"man"	1
+88 	88 	"088.jpg"	"Rachel Weisz"	"The Constant Gardener"	"woman"	0
+89 	89 	"089.jpg"	"Evan Rachel Wood"	"Thirteen"	"woman"	2
+90 	90 	"090.jpg"	"Jeffrey Wright"	"The French Dispatch"	"man"	1
+91 	91 	"091.jpg"	"Tom Hiddleston"	"The Avengers"	"man"	2
+92 	92 	"092.jpg"	"Hailee Steinfeld"	"True Grit"	"woman"	1
+93 	93 	"093.jpg"	"Allison Janney"	"The Help"	"woman"	0
+94 	94 	"094.jpg"	"Taraji P. Henson"	"The Curious Case of Benjamin Button"	"woman"	1
+95 	95 	"095.jpg"	"Tiffany Haddish"	"Girls Trip"	"woman"	2
+96 	96 	"096.jpg"	"Timothée Chalamet"	"Call Me by Your Name"	"man"	1
+97 	97 	"097.jpg"	"Lucas Hedges"	"Manchester by the Sea"	"man"	1
+98 	98 	"098.jpg"	"Janelle Monáe"	"Hidden Figures"	"woman"	2
+99 	99 	"099.jpg"	"Letitia Wright"	"Black Panther"	"woman"	2

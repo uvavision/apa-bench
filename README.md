@@ -1,17 +1,15 @@
-# APA Benchmark
+# UPB Benchmark
 
-Vision-language models such as CLIP that are able to compute matching scores between images and text have become extremely capable. We propose the US Politicians Benchmark (UPB) to probe the capabilities in the associations computed by these models, the societal biases induced by these associations, and the capacity of these models to retain knowledge. The UPB Benchmark consists of public domain portraits of major politicians in the United States from the Senate, the House of Representatives and mayors of the most populated cities. We discuss some of the implications of our results and discover the role of scale in each of the properties targeted in our study. Similar as in the pure textual domain, there are capabilities in vision-language models that seem to emerge only in the largest models. As more variants of vision-language models are trained on publicly available data, we expect that our benchmark will be an easy test to replicate. Our code, and data are included with this submission and will be released upon publication.
+Vision-language models like CLIP have become highly capable at matching images and text. To evaluate their associative abilities, societal biases, and knowledge retention, we introduce the APA Benchmark, which consists of portraits of actors, actresses, politicians, and athletes. This paper discusses the implications of the results and examines how model scale affects the evaluated properties. While model performance improves primarily with increased parameter size rather than training data alone, our results reveal that, despite recent advances, vision-language and generative models still risk overlooking essential features or reinforcing gender stereotypes depending on the training data. The proposed benchmark offers a practical dataset for systematically comparing a wide range of vision-language models. Our code, and data are included with this submission and will be released upon publication. 
 
-## Requirements:
-- Make sure CLIP and Open CLIP are up to date:
-  ```
-  $ pip install git+https://github.com/openai/CLIP.git
-  $ pip install --upgrade open_clip_torch
-  $ git clone [this repo]
-  $ mkdir clip_res
-  $ mkdir open_clip_res
-  ```
-Additional packages:
+## Pakage Requirements:
+If you need, make conda env.
+```
+$ conda create -n apa_benchmark python=3.10
+```
+
+Install below packages.
+
 - pandas
 - pytorch=1.7.1 
 - torchvision
@@ -19,16 +17,62 @@ Additional packages:
 - ftfy 
 - regex 
 - tqdm
-___
+- transformers
+- accelerate
 
+( Gemma 3 is supported starting from transformers 4.50.0 )
+
+
+## CLIP:
+
+###  Additional Requirements:
+- Make sure CLIP is up to date:
+  ```
+  $ pip install git+https://github.com/openai/CLIP.git
+  ```
+  
 ### To compute all scores for img2txt and txt2img run:
 ```
-$ python pks_benchmark.py
-$ python pks_benchmark_rev.py
+$ python clip/pks_benchmark.py
+$ python clip/pks_benchmark_rev.py 
 ```
 
 ### To cumpute all scores for Easy, Medium and Hard benchmark run:
 ```
-$ python base-benchmark.py
-$ python open_clip_bench.py
+$ python clip/base-benchmark.py
+```
+
+
+## Gemma3 ( Generative VL model ):
+
+### To compute all scores for img2txt and txt2img run:
+```
+$ python gemma3/pks_benchmark.py
+$ python gemma3/pks_benchmark_rev.py
+```
+
+### To cumpute all scores for Easy, Medium and Hard benchmark run:
+```
+$ python gemma3/base-benchmark.py
+```
+
+
+## Evalation:
+### To summarize capability:
+```
+$ python eval/exp1/cal_three_mean_actor.py
+$ python eval/exp1/cal_three_mean_politician.py
+$ python eval/exp1/cal_three_mean_athletes.py
+```
+
+### To summarize bias score:
+```
+$ python eval/exp2/cal_bias_actor_athlete.py
+$ python eval/exp2/cal_bias_politician.py
+```
+
+### To summarize bias score:
+```
+$ python eval/exp3/cal_image_score_mean.py
+$ python eval/exp3/cal_text_score_mean.py
 ```

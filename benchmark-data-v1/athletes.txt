@@ -1,112 +1,110 @@
----+--------+------------------+------------+------
-    | FileName | Name               | Sport        | Gender
-0   | 0.jpg    | John Elway         | Football     | Man   
-1   | 1.jpg    | Serena Williams    | Tennis       | Woman 
-2   | 2.jpg    | Charles Barkley    | Basketball   | Man   
-3   | 3.jpg    | Emma Raducanu      | Tennis       | Woman 
-4   | 4.jpg    | Alexi Lalas        | Soccer       | Man   
-5   | 5.jpg    | Steven Gerrard     | Soccer       | Man   
-6   | 6.jpg    | George Best        | Soccer       | Man   
-7   | 7.jpg    | Yao Ming           | Basketball   | Man   
-8   | 8.jpg    | Michael Schumacher | Racing       | Man   
-9   | 9.jpg    | Randy Couture      | Martial Arts | Man   
-10  | 10.jpg   | Shaun White        | Snowboarding | Man   
-11  | 11.jpg   | Jenniw Finch       | Softball     | Woman 
-12  | 12.jpg   | Dirk Nowitzki      | Basketball   | Man   
-13  | 13.jpg   | Ernie Banks        | Baseball     | Man   
-14  | 14.jpg   | Usain Bolt         | Track        | Man   
-15  | 15.jpg   | Phil Mickelson     | Golf         | Man   
-16  | 16.jpg   | Ronaldo            | Soccer       | Man   
-17  | 17.jpg   | Maria Sharapova    | Tennis       | Woman 
-18  | 18.jpg   | Drew Brees         | Football     | Man   
-19  | 19.jpg   | Kevin Garnett      | Basketball   | Man   
-20  | 20.jpg   | Steve Nash         | Basketball   | Man   
-21  | 21.jpg   | Ray Bourque        | Hockey       | Man   
-22  | 22.jpg   | Ichiro Suzuki      | Baseball     | Man   
-23  | 23.jpg   | Billie Jean King   | Tennis       | Woman 
-24  | 24.jpg   | Dale Earnhardt Jr. | Racing       | Man   
-25  | 25.jpg   | Rafael Nadal       | Tennis       | Man   
-26  | 26.jpg   | Richard Petty      | Racing       | Man   
-27  | 27.jpg   | Bill Elliot        | Racing       | Man   
-28  | 28.jpg   | Chris Evert        | Tennis       | Woman 
-29  | 29.jpg   | Steffi Graf        | Tennis       | Woman 
-30  | 30.jpg   | Maradona           | Soccer       | Man   
-31  | 31.jpg   | Mark Messier       | Hockey       | Man   
-32  | 32.jpg   | Lionel Messi       | Soccer       | Man   
-33  | 33.jpg   | Cristiano Ronaldo  | Soccer       | Man   
-34  | 34.jpg   | Jim Thorpe         | Football     | Man   
-35  | 35.jpg   | Emmitt Smith       | Football     | Man   
-36  | 36.jpg   | David Beckham      | Soccer       | Man   
-37  | 37.jpg   | Arnold Palmer      | Golf         | Man   
-38  | 38.jpg   | Jack Nicklaus      | Golf         | Man   
-39  | 39.jpg   | Andre Agassi       | Tennis       | Man   
-40  | 40.jpg   | Michael Phelps     | Swimming     | Man   
-41  | 41.jpg   | Roger Federer      | Tennis       | Man   
-42  | 42.jpg   | Tiger Woods        | Golf         | Man   
-43  | 43.jpg   | Kobe Bryant        | Basketball   | Man   
-44  | 44.jpg   | Shaquille O'Neil   | Basketball   | Man   
-45  | 45.jpg   | Jim Brown          | Football     | Man   
-46  | 46.jpg   | Steve Yzerman      | Hockey       | Man   
-47  | 47.jpg   | Joe Namath         | Football     | Man   
-48  | 48.jpg   | Julius Erving      | Basketball   | Man   
-49  | 49.jpg   | Ken Griffey Jr.    | Baseball     | Man   
-50  | 50.jpg   | Reggie White       | Football     | Man   
-51  | 51.jpg   | Kurt Warner        | Football     | Man   
-52  | 52.jpg   | Wilt Chamberlain   | Basketball   | Man   
-53  | 53.jpg   | Barry Sanders      | Football     | Man   
-54  | 54.jpg   | Tim Tebow          | Football     | Man   
-55  | 55.jpg   | Pat Tillman        | Football     | Man   
-56  | 56.jpg   | Peyton Manning     | Football     | Man   
-57  | 57.jpg   | John Elway         | Football     | Man   
-58  | 58.jpg   | Mario Lemieux      | Hockey       | Man   
-59  | 59.jpg   | Tom Brady          | Football     | Man   
-60  | 60.jpg   | Joe Montana        | Football     | Man   
-61  | 61.jpg   | Derek Jeter        | Baseball     | Man   
-62  | 62.jpg   | Lou Gehrig         | Baseball     | Man   
-63  | 63.jpg   | Walter Payton      | Football     | Man   
-64  | 64.jpg   | Wayne Gretzky      | Hockey       | Man   
-65  | 65.jpg   | Bill Russell       | Basketball   | Man   
-66  | 66.jpg   | Larry Bird         | Basketball   | Man   
-67  | 67.jpg   | Jerry Rice         | Football     | Man   
-68  | 68.jpg   | Yogi Berra         | Baseball     | Man   
-69  | 69.jpg   | Brett Favre        | Football     | Man   
-70  | 70.jpg   | Gordie Howe        | Hockey       | Man   
-71  | 71.jpg   | Magic Johnson      | Basketball   | Man   
-72  | 72.jpg   | Cal Ripken Jr.     | Baseball     | Man   
-73  | 73.jpg   | Stan Musial        | Baseball     | Man   
-74  | 74.jpg   | Jesse Owens        | Track        | Man   
-75  | 75.jpg   | Joe Louis          | Boxing       | Man   
-76  | 76.jpg   | Joe DiMaggio       | Baseball     | Man   
-77  | 77.jpg   | Roberto Clemente   | Baseball     | Man   
-78  | 78.jpg   | Lance Armstrong    | Biking       | Man   
-79  | 79.jpg   | Pele               | Soccer       | Man   
-80  | 80.jpg   | Mickey Mantle      | Baseball     | Man   
-81  | 81.jpg   | Willie Mays        | Baseball     | Man   
-82  | 82.jpg   | Muhammad Ali       | Boxing       | Man   
-83  | 83.jpg   | Babe Ruth          | Baseball     | Man   
-84  | 84.jpg   | Michael Jordan     | Basketball   | Man   
-85  | 85.jpg   | Jackie Robinson    | Baseball     | Man   
-86  | 86.jpg   | Naomi Osaka        | Tennis       | Woman 
-87  | 87.jpg   | Eileen Gu          | Snowboarding | Woman 
-88  | 88.jpg   | Iga Światek        | Tennis       | Woman 
-89  | 89.jpg   | Venus Williams     | Tennis       | Woman 
-90  | 90.jpg   | Coco Gauff         | Tennis       | Woman 
-91  | 91.jpg   | Simone Biles       | Gymnastics   | Woman 
-92  | 92.jpg   | Jessica Pegula     | Tennis       | Woman 
-93  | 93.jpg   | Minjee Lee         | Golf         | Woman 
-94  | 94.jpg   | Candace Parker     | Basketball   | Woman 
-95  | 95.jpg   | P.V. Sindhu        | Tennis       | Woman 
-96  | 96.jpg   | Leylah Fernandez   | Tennis       | Woman 
-97  | 97.jpg   | Lydia Ko           | Golf         | Woman 
-98  | 98.jpg   | Ons Jabeur         | Tennis       | Woman 
-99  | 99.jpg   | Paula Badosa       | Tennis       | Woman 
-100 | 100.jpg  | Lexi Thompson      | Golf         | Woman 
-101 | 101.jpg  | Jin Young Ko       | Golf         | Woman 
-102 | 102.jpg  | In Gee Chun        | Golf         | Woman 
-103 | 103.jpg  | Alex Morgan        | Soccer       | Woman 
-104 | 104.jpg  | Megan Rapinoe      | Soccer       | Woman 
-105 | 105.jpg  | Brooke Henderson   | Golf         | Woman 
-106 | 106.jpg  | Nelly Korda        | Golf         | Woman 
-107 | 107.jpg  | Caroline Garcia    | Tennis       | Woman 
-108 | 108.jpg  | Garbiñe Muguruza   | Tennis       | Woman 
----+--------+------------------+------------+------
+""	Unnamed: 0	"filename"	"names"	"sport"	"gender"
+0 	0 	"000.jpg"	"John Elway"	"Football"	"man"
+1 	1 	"001.jpg"	"Serena Williams"	"Tennis"	"woman"
+2 	2 	"002.jpg"	"Charles Barkley"	"Basketball"	"man"
+3 	3 	"003.jpg"	"Emma Raducanu"	"Tennis"	"woman"
+4 	4 	"004.jpg"	"Alexi Lalas"	"Soccer"	"man"
+5 	5 	"005.jpg"	"Steven Gerrard"	"Soccer"	"man"
+6 	6 	"006.jpg"	"George Best"	"Soccer"	"man"
+7 	7 	"007.jpg"	"Yao Ming"	"Basketball"	"man"
+8 	8 	"008.jpg"	"Michael Schumacher"	"Racing"	"man"
+9 	9 	"009.jpg"	"Randy Couture"	"Martial Arts"	"man"
+10	10	"010.jpg"	"Shaun White"	"Snowboarding"	"man"
+11	11	"011.jpg"	"Jenniw Finch"	"Softball"	"woman"
+12	12	"012.jpg"	"Dirk Nowitzki"	"Basketball"	"man"
+13	13	"013.jpg"	"Ernie Banks"	"Baseball"	"man"
+14	14	"014.jpg"	"Usain Bolt"	"Track"	"man"
+15	15	"015.jpg"	"Phil Mickelson"	"Golf"	"man"
+16	16	"016.jpg"	"Ronaldo"	"Soccer"	"man"
+17	17	"017.jpg"	"Maria Sharapova"	"Tennis"	"woman"
+18	18	"018.jpg"	"Drew Brees"	"Football"	"man"
+19	19	"019.jpg"	"Kevin Garnett"	"Basketball"	"man"
+20	20	"020.jpg"	"Steve Nash"	"Basketball"	"man"
+21	21	"021.jpg"	"Ray Bourque"	"Hockey"	"man"
+22	22	"022.jpg"	"Ichiro Suzuki"	"Baseball"	"man"
+23	23	"023.jpg"	"Billie Jean King"	"Tennis"	"woman"
+24	24	"024.jpg"	"Dale Earnhardt Jr."	"Racing"	"man"
+25	25	"025.jpg"	"Rafael Nadal"	"Tennis"	"man"
+26	26	"026.jpg"	"Richard Petty"	"Racing"	"man"
+27	27	"027.jpg"	"Bill Elliot"	"Racing"	"man"
+28	28	"028.jpg"	"Chris Evert"	"Tennis"	"woman"
+29	29	"029.jpg"	"Steffi Graf"	"Tennis"	"woman"
+30	30	"030.jpg"	"Maradona"	"Soccer"	"man"
+31	31	"031.jpg"	"Mark Messier"	"Hockey"	"man"
+32	32	"032.jpg"	"Lionel Messi"	"Soccer"	"man"
+33	33	"033.jpg"	"Cristiano Ronaldo"	"Soccer"	"man"
+34	34	"034.jpg"	"Jim Thorpe"	"Football"	"man"
+35	35	"035.jpg"	"Emmitt Smith"	"Football"	"man"
+36	36	"036.jpg"	"David Beckham"	"Soccer"	"man"
+37	37	"037.jpg"	"Arnold Palmer"	"Golf"	"man"
+38	38	"038.jpg"	"Jack Nicklaus"	"Golf"	"man"
+39	39	"039.jpg"	"Andre Agassi"	"Tennis"	"man"
+40	40	"040.jpg"	"Michael Phelps"	"Swimming"	"man"
+41	41	"041.jpg"	"Roger Federer"	"Tennis"	"man"
+42	42	"042.jpg"	"Tiger Woods"	"Golf"	"man"
+43	43	"043.jpg"	"Kobe Bryant"	"Basketball"	"man"
+44	44	"044.jpg"	"Shaquille O'Neil"	"Basketball"	"man"
+45	45	"045.jpg"	"Jim Brown"	"Football"	"man"
+46	46	"046.jpg"	"Steve Yzerman"	"Hockey"	"man"
+47	47	"047.jpg"	"Joe Namath"	"Football"	"man"
+48	48	"048.jpg"	"Julius Erving"	"Basketball"	"man"
+49	49	"049.jpg"	"Ken Griffey Jr."	"Baseball"	"man"
+50	50	"050.jpg"	"Reggie White"	"Football"	"man"
+51	51	"051.jpg"	"Kurt Warner"	"Football"	"man"
+52	52	"052.jpg"	"Wilt Chamberlain"	"Basketball"	"man"
+53	53	"053.jpg"	"Barry Sanders"	"Football"	"man"
+54	54	"054.jpg"	"Tim Tebow"	"Football"	"man"
+55	55	"055.jpg"	"Pat Tillman"	"Football"	"man"
+56	56	"056.jpg"	"Peyton Manning"	"Football"	"man"
+57	57	"057.jpg"	"John Elway"	"Football"	"man"
+58	58	"058.jpg"	"Mario Lemieux"	"Hockey"	"man"
+59	59	"059.jpg"	"Tom Brady"	"Football"	"man"
+60	60	"060.jpg"	"Joe Montana"	"Football"	"man"
+61	61	"061.jpg"	"Derek Jeter"	"Baseball"	"man"
+62	62	"062.jpg"	"Lou Gehrig"	"Baseball"	"man"
+63	63	"063.jpg"	"Walter Payton"	"Football"	"man"
+64	64	"064.jpg"	"Wayne Gretzky"	"Hockey"	"man"
+65	65	"065.jpg"	"Bill Russell"	"Basketball"	"man"
+66	66	"066.jpg"	"Larry Bird"	"Basketball"	"man"
+67	67	"067.jpg"	"Jerry Rice"	"Football"	"man"
+68	68	"068.jpg"	"Yogi Berra"	"Baseball"	"man"
+69	69	"069.jpg"	"Brett Favre"	"Football"	"man"
+70	70	"070.jpg"	"Gordie Howe"	"Hockey"	"man"
+71	71	"071.jpg"	"Magic Johnson"	"Basketball"	"man"
+72	72	"072.jpg"	"Cal Ripken Jr."	"Baseball"	"man"
+73	73	"073.jpg"	"Stan Musial"	"Baseball"	"man"
+74	74	"074.jpg"	"Jesse Owens"	"Track"	"man"
+75	75	"075.jpg"	"Joe Louis"	"Boxing"	"man"
+76	76	"076.jpg"	"Joe DiMaggio"	"Baseball"	"man"
+77	77	"077.jpg"	"Roberto Clemente"	"Baseball"	"man"
+78	78	"078.jpg"	"Lance Armstrong"	"Biking"	"man"
+79	79	"079.jpg"	"Pele"	"Soccer"	"man"
+80	80	"080.jpg"	"Mickey Mantle"	"Baseball"	"man"
+81	81	"081.jpg"	"Willie Mays"	"Baseball"	"man"
+82	82	"082.jpg"	"Muhammad Ali"	"Boxing"	"man"
+83	83	"083.jpg"	"Babe Ruth"	"Baseball"	"man"
+84	84	"084.jpg"	"Michael Jordan"	"Basketball"	"man"
+85	85	"085.jpg"	"Jackie Robinson"	"Baseball"	"man"
+86	86	"086.jpg"	"Naomi Osaka"	"Tennis"	"woman"
+87	87	"087.jpg"	"Eileen Gu"	"Snowboarding"	"woman"
+88	88	"088.jpg"	"Iga Światek"	"Tennis"	"woman"
+89	89	"089.jpg"	"Venus Williams"	"Tennis"	"woman"
+90	90	"090.jpg"	"Coco Gauff"	"Tennis"	"woman"
+91	91	"091.jpg"	"Simone Biles"	"Gymnastics"	"woman"
+92	92	"092.jpg"	"Jessica Pegula"	"Tennis"	"woman"
+93	93	"093.jpg"	"Minjee Lee"	"Golf"	"woman"
+94	94	"094.jpg"	"Candace Parker"	"Basketball"	"woman"
+95	95	"095.jpg"	"P.V. Sindhu"	"Tennis"	"woman"
+96	96	"096.jpg"	"Leylah Fernandez"	"Tennis"	"woman"
+97	97	"097.jpg"	"Lydia Ko"	"Golf"	"woman"
+98	98	"098.jpg"	"Ons Jabeur"	"Tennis"	"woman"
+99	99	"099.jpg"	"Paula Badosa"	"Tennis"	"woman"
+100 	100 	"100.jpg"	"Lexi Thompson"	"Golf"	"woman"
+101 	101 	"101.jpg"	"Jin Young Ko"	"Golf"	"woman"
+102 	102 	"102.jpg"	"In Gee Chun"	"Golf"	"woman"
+103 	103 	"103.jpg"	"Alex Morgan"	"Soccer"	"woman"
+104 	104 	"104.jpg"	"Megan Rapinoe"	"Soccer"	"woman"
+105 	105 	"105.jpg"	"Brooke Henderson"	"Golf"	"woman"
+106 	106 	"106.jpg"	"Nelly Korda"	"Golf"	"woman"
+107 	107 	"107.jpg"	"Caroline Garcia"	"Tennis"	"woman"
+108 	108 	"108.jpg"	"Garbiñe Muguruza"	"Tennis"	"woman"

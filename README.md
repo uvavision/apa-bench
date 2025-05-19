@@ -26,10 +26,10 @@ Install below packages.
 ## CLIP:
 
 ###  Additional Requirements:
-- Make sure CLIP is up to date:
-  ```
-  $ pip install git+https://github.com/openai/CLIP.git
-  ```
+Make sure CLIP is up to date:
+```
+$ pip install git+https://github.com/openai/CLIP.git
+```
   
 ### To compute all scores for img2txt and txt2img run:
 ```

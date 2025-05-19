@@ -32,6 +32,8 @@ Install the following Python packages:
 
 >  **Note:** Gemma 3 is supported starting from `transformers==4.50.0`.
 
+---
+
 ## CLIP Benchmark
 
 ### Additional Installation
@@ -57,6 +59,8 @@ python clip/pks_benchmark_rev.py
 python clip/base-benchmark.py
 ```
 
+---
+
 ## Gemma 3 (Generative Vision-Language Model)
 
 ### Running Benchmarks
@@ -74,6 +78,7 @@ python gemma3/pks_benchmark_rev.py
 python gemma3/base-benchmark.py
 ```
 
+---
 
 ## Evaluation Scripts
 

@@ -46,19 +46,20 @@ pip install git+https://github.com/openai/CLIP.git
 
 ### Running Benchmarks
 
-#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
+#### Compute scores by prompt type: category, occupation, and specialty
 
 ```bash
 python clip/base-benchmark.py
 ```
 
-#### Compute Scores for Image-to-Text Tasks:
+#### Compute scores for Image-to-Text tasks
 
 ```bash
 python clip/pks_benchmark.py
 ```
 
-#### Compute Scores for Text-to-Image Tasks:
+#### Compute scores for Text-to-Image tasks
+
 ```bash
 python clip/pks_benchmark_rev.py
 ```
@@ -69,19 +70,19 @@ python clip/pks_benchmark_rev.py
 
 ### Running Benchmarks
 
-#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
+#### Compute scores by prompt type: category, occupation, and specialty
 
 ```bash
 python gemma3/base-benchmark.py
 ```
 
-#### Compute Scores for Image-to-Text Tasks:
+#### Compute scores for Image-to-Text tasks
 
 ```bash
 python gemma3/pks_benchmark.py
 ```
 
-#### Compute Scores for Text-to-Image Tasks:
+#### Compute scores for Text-to-Image tasks
 
 ```bash
 python gemma3/pks_benchmark_rev.py
@@ -91,7 +92,7 @@ python gemma3/pks_benchmark_rev.py
 
 ## Evaluation Scripts
 
-These scripts summarize the benchmark results from different perspectives.
+These scripts summarize benchmark results from different analytical perspectives.
 
 ### 1. Basic associative abilities
 
@@ -101,14 +102,14 @@ python eval/exp1/cal_three_mean_politician.py
 python eval/exp1/cal_three_mean_athletes.py
 ```
 
-### 2.Iinfluence from societal biases
+### 2. Influence of societal biases
 
 ```bash
 python eval/exp2/cal_bias_actor_athlete.py
 python eval/exp2/cal_bias_politician.py
 ```
 
-### 3. Capacity for identity recognition
+### 3. Identity recognition capability
 
 ```bash
 python eval/exp3/cal_image_score_mean.py

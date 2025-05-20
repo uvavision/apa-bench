@@ -46,10 +46,14 @@ pip install git+https://github.com/openai/CLIP.git
 
 ### Running Benchmarks
 
-#### Compute Scores for Image-to-Text and Text-to-Image Tasks:
+#### Compute Scores for Image-to-Text Tasks:
 
 ```bash
 python clip/pks_benchmark.py
+```
+
+#### Compute Scores for Text-to-Image Tasks:
+```bash
 python clip/pks_benchmark_rev.py
 ```
 
@@ -65,10 +69,15 @@ python clip/base-benchmark.py
 
 ### Running Benchmarks
 
-#### Compute Scores for Image-to-Text and Text-to-Image Tasks:
+#### Compute Scores for Image-to-Text Tasks:
 
 ```bash
 python gemma3/pks_benchmark.py
+```
+
+#### Compute Scores for Text-to-Image Tasks:
+
+```bash
 python gemma3/pks_benchmark_rev.py
 ```
 

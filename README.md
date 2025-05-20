@@ -82,7 +82,7 @@ python gemma3/base-benchmark.py
 
 ## Evaluation Scripts
 
-These scripts summarize the benchmark results from different perspectives: capability, bias, and modality-specific performance.
+These scripts summarize the benchmark results from different perspectives: Bias Assessment and Identity Recognition
 
 ### 1. Capability Summary (Category-Wise Mean Scores)
 

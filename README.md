@@ -46,6 +46,12 @@ pip install git+https://github.com/openai/CLIP.git
 
 ### Running Benchmarks
 
+#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
+
+```bash
+python clip/base-benchmark.py
+```
+
 #### Compute Scores for Image-to-Text Tasks:
 
 ```bash
@@ -57,17 +63,17 @@ python clip/pks_benchmark.py
 python clip/pks_benchmark_rev.py
 ```
 
-#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
-
-```bash
-python clip/base-benchmark.py
-```
-
 ---
 
 ## Gemma 3 (Generative Vision-Language Model)
 
 ### Running Benchmarks
+
+#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
+
+```bash
+python gemma3/base-benchmark.py
+```
 
 #### Compute Scores for Image-to-Text Tasks:
 
@@ -81,17 +87,11 @@ python gemma3/pks_benchmark.py
 python gemma3/pks_benchmark_rev.py
 ```
 
-#### Compute Scores by Difficulty Level (Easy, Medium, Hard):
-
-```bash
-python gemma3/base-benchmark.py
-```
-
 ---
 
 ## Evaluation Scripts
 
-These scripts summarize the benchmark results from different perspectives: Bias Assessment and Identity Recognition
+These scripts summarize the benchmark results from different perspectives.
 
 ### 1. Basic associative abilities
 

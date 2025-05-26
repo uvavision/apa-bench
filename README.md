@@ -117,6 +117,21 @@ python eval/exp3/cal_text_score_mean.py
 
 ---
 
+## 📚 Citation
+
+If you use this work, please cite us using the following BibTeX entry:
+
+```bibtex
+@misc{apabench,
+  author       = {Yuri Ishitoya and Veronica Flores and Ziyan Yang and Paola Cascante-Bonilla and Vicente Ordonez},
+  title        = {The APA Benchmark: A People-centric Benchmark for Testing Vision-Language Models},
+  year         = {2025},
+  howpublished = {\url{https://github.com/uvavision/vislang-apa-benchmark}}
+}
+```
+
+---
+
 ## License
 
 This project is licensed under the MIT License.

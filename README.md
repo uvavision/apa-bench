@@ -1,6 +1,6 @@
 # The APA Benchmark: A People-centric Benchmark for Testing Vision-Language Models
 
-We introduce the APA Benchmark, consisting of images of Actors, Politicians, and Athletes paired with a series of text prompts. Our benchmark serves as a tool for practitioners and researchers who are considering VLMs for people-centric tasks. Our benchmark tests VLM for their association ability with respect to pictures of public figures in three domains: Athletics, Politics and Acting. We issue text prompts against photos of famous people in each of these domains and provide a score for VLMs according to their matching capabilities. 
+We introduce the APA Benchmark, consisting of images of Actors, Politicians, and Athletes paired with a series of text prompts. Our benchmark serves as a tool for practitioners and researchers who are considering VLMs for people-centric tasks. Our benchmark tests VLM for their association ability with respect to pictures of public figures in three domains: Athletics, Politics and Acting. We issue text prompts against photos of famous people in each of these domains and provide a score for VLMs according to their matching capabilities. Images are mostly sourced from Wikimedia Commons and Wikipedia which means they are either in the public domain or have a friendly license to redistribute. Other metadata is manually curated from Wikipedia or from official sources. 
 
 ---
 
